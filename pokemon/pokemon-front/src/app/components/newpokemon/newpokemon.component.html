@@ -1,0 +1,21 @@
+<div [formGroup]="fg">
+    <div class="row">
+      <div class="etiqueta">Nombre:</div>
+      <input type="text"  formControlName="nombre">
+    </div>
+  
+    <div class="row">
+        <div class="etiqueta">Tipo:</div>
+      <input type="text"  formControlName="tipo">
+    </div>
+  
+    <div class="row">
+      <div class="etiqueta">Generacion:</div>
+      <input type="number"  formControlName="generacion">
+    </div>
+  <p></p>
+    <div class="row">
+      <button (click)="grabar()">Grabar Pokémon</button>
+    </div>
+  </div>
+  

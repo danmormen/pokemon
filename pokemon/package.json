@@ -1,0 +1,16 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "description": "ejercicio pokemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Morales",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.20.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3"
+  }
+}

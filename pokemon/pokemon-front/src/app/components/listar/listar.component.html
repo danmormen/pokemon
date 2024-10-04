@@ -1,0 +1,30 @@
+@if (listar.length > 0)
+{
+    <h1>Listado de Pokemon</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Nombre</td>
+                <td>Tipo</td>
+                <td>Generacion</td>
+            </tr>
+        </thead>
+        <tbody>
+
+        @for(cont of listar; track cont)
+        {
+        <tr>
+            <td>{{cont.nombre}}</td>
+            <td>{{cont.tipo}}</td>
+            <td>{{cont.generacion}}</td>
+        </tr>
+        }
+    </tbody>
+
+    </table>
+
+}
+@else {
+    <div><h1>no hay datos a mostrar</h1></div>
+
+}
